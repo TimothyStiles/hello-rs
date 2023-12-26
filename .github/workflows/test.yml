@@ -1,0 +1,23 @@
+name: Test
+
+on:
+  push:
+    tags:
+      - v*
+    branches:
+      - main
+  pull_request:
+
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+            - name: Set up cargo
+              run: source $HOME/.cargo/env
+            - name: Build
+              run: cargo build --verbose
+            - name: Test
+              run: cargo test --verbose
