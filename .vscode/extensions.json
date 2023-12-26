@@ -1,0 +1,14 @@
+{
+    "recommendations": ["rust-lang.rust-analyzer", // this is just what you need for TS anyways
+                        
+
+                         // this is the extension that runs `npm run test` on save which also generates a coverage report via jest
+                        "emeraldwalk.runonsave",
+                        
+                        // parses the coverage report and shows it in the gutter
+                        "ryanluker.vscode-coverage-gutters",
+
+                        // is used to watch files for code coverage on start via coverage gutters above
+                        "gabrielgrinberg.auto-run-command"
+                        ] 
+}

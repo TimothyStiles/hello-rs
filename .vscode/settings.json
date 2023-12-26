@@ -1,0 +1,34 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*",
+                "cmd": "cargo llvm-cov --lcov --output-path lcov.info"
+            }
+        ]
+    }, 
+    // "coverage-gutters.showGutterCoverage": true,
+    /**
+     * Set the gutters settings to match the colors in Go's official extensions code highlighting.
+     */
+      "coverage-gutters.highlightdark": "rgba(64,128,128,0.5)",
+      "coverage-gutters.highlightlight": "rgba(64,128,128,0.5)",
+      "coverage-gutters.noHighlightDark": "rgba(128,64,64,0.25)",
+      "coverage-gutters.noHighlightLight": "rgba(128,64,64,0.25)",
+
+      "coverage-gutters.showLineCoverage": true,
+      "coverage-gutters.showGutterCoverage": false,
+      "coverage-gutters.showRulerCoverage": true,
+
+    "auto-run-command.rules": [
+        {
+          "condition": [
+            // this could be removed if you want this to run on all files, everywhere, all the time
+            "isRootFolder: hello-rs",
+          ],
+          "command": "coverage-gutters.watchCoverageAndVisibleEditors",
+          "message": "Super condition met. Running "
+        }
+      ]
+    
+}
