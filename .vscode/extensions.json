@@ -1,5 +1,5 @@
 {
-    "recommendations": ["rust-lang.rust-analyzer", // this is just what you need for TS anyways
+    "recommendations": ["rust-lang.rust-analyzer", // this is just what you need for Rust anyways
                         
 
                          // this is the extension that runs `npm run test` on save which also generates a coverage report via jest
