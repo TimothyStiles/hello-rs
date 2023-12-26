@@ -2,7 +2,7 @@
 
 hello-rs is a simple example repo to show how you can get started with test driven development in Rust.
 
-Go has in-line running tests, debugging, and code highlighting baked into their official vscode extension but it turns out most other languages don't have code hightlighting like this by default. This repo shows how you can get started with test driven development in Rust with code highlighting in vs-code.
+Go has in-line running tests, debugging, and code highlighting baked into their official vs-code extension but it turns out most other languages don't have code hightlighting like this by default. This repo shows how you can get started with test driven development in Rust with code highlighting in vs-code.
 
 ![Example screenshot of golang code from [poly](https://github.com/bebop/poly) covered by tests being highlighted green.](./screenshots/golang-gutters.png)
 
