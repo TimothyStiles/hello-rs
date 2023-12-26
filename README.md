@@ -10,12 +10,11 @@ I was surprised to find that there wasn't a simple way to get code highlighting 
  
 ![Example screenshot of rust code in this repo covered by tests being highlighted green.](./screenshots/rust-gutters.png)
 
-All of the example code we're testing can be found in [src](./src) and comes from this article by @janis_t on twitter [article](https://www.typescriptbites.io/articles/build-test-and-publish-typescript-npm-package-2022) by [@janis_t on twitter](https://twitter.com/janis_t).
-
+If you want to know more about how code coverage works in Rust, check out the [official docs](https://doc.rust-lang.org/rustc/instrument-coverage.html).
 
 ## Install
 
-This assumes you already have rustc and cargo installed. If you don't, you can install them with [rustup](https://rustup.rs/).
+This assumes you already have `rustc` and `cargo` installed. If you don't, you can install them with [rustup](https://rustup.rs/).
 
 ```git clone https://github.com/TimothyStiles/hello-rs && cd hello-rs && code .```
 
